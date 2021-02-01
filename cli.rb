@@ -2,24 +2,24 @@ require 'rss'
 
 feeds = [
   {
-    'title' => 'Front',
-    'url'   => 'http://www.20min.ch/rss/rss.tmpl?type=channel&get=68'
-  },
-  {
     'title' => 'News',
-    'url'   => 'http://www.20min.ch/rss/rss.tmpl?type=channel&get=4'
+    'url'   => 'https://www.srf.ch/news/bnf/rss/1646'
   },
   {
-    'title' => 'Ausland',
-    'url'   => 'http://www.20min.ch/rss/rss.tmpl?type=rubrik&get=3'
+    'title' => 'International',
+    'url'   => 'https://www.srf.ch/news/bnf/rss/1922'
+  },
+  {
+    'title' => 'Panorama',
+    'url'   => 'https://www.srf.ch/news/bnf/rss/1930'
   },
   {
     'title' => 'Schweiz',
-    'url'   => 'http://www.20min.ch/rss/rss.tmpl?type=rubrik&get=2'
+    'url'   => 'https://www.srf.ch/news/bnf/rss/1890'
   },
   {
     'title' => 'Finanz & Wirtschaft',
-    'url'   => 'http://www.20min.ch/rss/rss.tmpl?type=channel&get=8'
+    'url'   => 'https://www.srf.ch/news/bnf/rss/1926'
   }
 ]
 
